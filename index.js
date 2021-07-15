@@ -11,13 +11,16 @@ Add to the function createMenuItems below so it will create objects following th
 The function should:
   1. Receive values for the object that will be created as parameters
   2. Create and return an object using the received values 
-  
+  l
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+function createMenuItem(name, price, category){
+return{name, price, category}; //returning a object with name price and category
+
 }
+
+    
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Invoke your function!
